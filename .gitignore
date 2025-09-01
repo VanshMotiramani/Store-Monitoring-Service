@@ -1,0 +1,12 @@
+# Virtual Environment
+.coverage
+.env
+.venv
+env/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+pytest_cache/
+pytest.ini

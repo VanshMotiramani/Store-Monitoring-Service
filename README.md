@@ -205,7 +205,7 @@ The generated CSV contains the following columns:
     ```
 
 ## Project Structure:
-
+```
 store-monitoring/
 │   ├── main.py                 # FastAPI application entry point
 │   ├── config.py               # Configuration management
@@ -230,6 +230,7 @@ store-monitoring/
 ├── .env.example                # Environment variables template
 ├── .gitignore                  # Git ignore rules
 └── README.md                   # This file
+```
 
 ## Data Processing Logic
 

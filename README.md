@@ -32,6 +32,12 @@ flowchart TD
     G --> H[(Reports Table in PostgreSQL)]
     G --> I[Reports/ Directory]
 ```
+
+## Demo
+
+- **Sample Output**: [sample_output.csv](./sample_output.csv)
+
+
 ## Features
 
 - **Timezone-aware calculations**: Handles stores across different US timezones

@@ -334,14 +334,3 @@ Environment variables (set in .env):
     • Implement data validation pipelines
     • Add anomaly detection for unusual patterns
     • Create data quality reports
-
-### Coding Standards
- 1. Follow PEP 8 style guide
- 2. Add type hints for all functions
- 3. Write docstrings for modules, classes, and functions
- 4. Maintain test coverage above 80%
-
-### License
-This project is part of a technical assessment for Loop.
-
-Note: This is a technical assessment project demonstrating backend development skills including data processing, API design, timezone handling, and asynchronous programming.

@@ -10,7 +10,28 @@ Monitor several restaurants in the US to track if stores are online during busin
 - Interpolate data between observations
 - Generate historical reports
 
+## Architecture
+```mermaid
+flowchart TD
 
+    %% Source Data
+    A[CSV Data] --> B[ETL Script]
+
+    %% ETL to Database
+    B --> C[(PostgreSQL Database)]
+
+    %% API interaction
+    C --> D[FastAPI Service]
+    D --> E[Computation & Logic Analysis]
+
+    %% Reporting
+    E --> F[Report Generator]
+    F --> G[CSV Output]
+
+    %% Storage
+    G --> H[(Reports Table in PostgreSQL)]
+    G --> I[Reports/ Directory]
+```
 ## Features
 
 - **Timezone-aware calculations**: Handles stores across different US timezones
